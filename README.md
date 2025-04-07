@@ -70,7 +70,7 @@ npm start
 
 This command handles launching the Vite development server and the Electron application together, providing a seamless development experience with HMR for your React code. Any changes in the `src` directory should reflect almost instantly in the Electron window. Changes to the Electron Main or Preload scripts (`electron/` directory) will usually require a restart of the application.
 
-*Alternatively, for more manual control, you could run `npm run dev` in one terminal and `npm run electron:dev` in another terminal, but `npm start` is the integrated approach provided by Electron Forge and is recommended.*
+*Alternatively, for more manual control, you could run `npm run dev` in one terminal and `npm run electron:dev` in another terminal.
 
 ### Production Mode (Local Test)
 
@@ -124,7 +124,7 @@ electron_starter_project/
 ### Available Scripts
 
 * `npm start`: (recommended) Starts both the Vite dev server and Electron in development mode. Waits for the dev server to be ready before launching Electron. Ideal for full app development.
-* `npm run dev`: Starts *only* the Vite development server.
+* `npm run dev`: Starts only the Vite development server.
 * `npm run build`: Builds the React application for production (outputs to `dist/`).
 * `npm run electron:dev`: Starts Electron in development mode (expects Vite server to be running separately).
 * `npm run electron:prod`: Starts Electron using the production build from `dist/`.
@@ -133,4 +133,4 @@ electron_starter_project/
 * `npm run make`: Creates distributable installers/packages for the application (outputs to `out/`).
 ### License
 
-This project is licensed under the ISC License.
+This project is licensed under the MIT License.
