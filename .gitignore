@@ -1,0 +1,57 @@
+# Node dependencies
+node_modules/
+
+# Build output folders
+dist/
+out/
+
+# Vite build cache
+.vite/
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+# Never commit .env files! Add an example file instead.
+.env
+.env.*
+!.env.example
+!.env.template
+
+# IDE / Editor directories & files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*~
+
+# Test runner / coverage output
+coverage/
+.nyc_output/
+
+# Electron Forge / Squirrel.Windows temporary build files
+# These might appear during the build process, often within the 'out' folder,
+# but good to ignore explicitly just in case.
+*.nupkg
+*.msi
+*.appx
+*.zip
